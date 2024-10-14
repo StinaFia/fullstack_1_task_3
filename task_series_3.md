@@ -3,6 +3,6 @@
 
 ### Keskustelupalsta
 
-![alt text](./images/screenshot1.png)
+![alt text](./images/Screenshot1.png)
 
 ##testi
