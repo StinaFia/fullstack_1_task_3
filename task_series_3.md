@@ -3,4 +3,5 @@
 
 ### Keskustelupalsta
 
-![alt text](image.png)
+![alt text](./images/screenshot.png)
+
