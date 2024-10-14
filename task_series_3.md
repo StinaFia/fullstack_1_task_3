@@ -21,4 +21,12 @@
 
 * **2 B** Lisää tietokantaan myös toinen viesti, tällä kertaa vastausviesti missä `parent_post_id`:ssä on aiemmin lisäämäsi aloitusviestin `id`:
 
-![1B](./images/Screenshot5.png)
+![2B](./images/Screenshot5.png)
+
+* **2 C** Millä tavalla saat haettua tietokannasta kaikki viestit jotka ovat aloitusviestejä?
+![2C](./images/Screenshot6.png)
+
+* **2 D** Miten saat haettua yksittäisen aloitusviestin id:n perusteella myös kaikki vastaukset kyseiseen aloitusviestiin yhdellä tietokantakyselyllä?
+![2D](./images/Screenshot7.png)
+
+
