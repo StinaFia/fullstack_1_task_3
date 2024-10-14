@@ -3,5 +3,5 @@
 
 ### Keskustelupalsta
 
-![alt text](./images/screenshot.png)
+![alt text](./images/screenshot1.png)
 
