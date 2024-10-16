@@ -24,9 +24,20 @@
 ![2B](./images/Screenshot5.png)
 
 * **2 C** Millä tavalla saat haettua tietokannasta kaikki viestit jotka ovat aloitusviestejä?
+
 ![2C](./images/Screenshot6.png)
 
 * **2 D** Miten saat haettua yksittäisen aloitusviestin id:n perusteella myös kaikki vastaukset kyseiseen aloitusviestiin yhdellä tietokantakyselyllä?
+
 ![2D](./images/Screenshot7.png)
+
+
+* **2 E**  Millä tavoin ratkaisisit viestien poistamiseen liittyvät mahdolliset ongelmat, kun aloitusviestiin on olemassa vastauksia? 
+
+Poistaisin alkuperäisen postauksen sen id:n perusteella, ja määrittäisin vastausten `parent_post_id`:n NULL arvoksi. Näin vastauksia ei poistettaisi, vaikka alkuperäinen viesti olisi poistettu ja NULL arvoksi määrittäminen auttaa pitämään tietokannan eheänä. Voisin myös poistaa vastaukset käyttämällä `DELETE FROM posts WHERE id = 2 OR parent_post_id = 2` kyselyä.
+
+![2E](./images/Screenshot8.png)
+![2E](./images/Screenshot9.png)
+
 
 
